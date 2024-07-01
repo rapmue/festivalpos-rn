@@ -21,7 +21,7 @@ export const POSProvider: React.FC<POSProviderProps> = ({ children }) => {
     name: '',
     festival: '',
     save_sales: false,
-    url: '',
+    url: 'https://api.festival-pos.dev.0x01.ch/pos/vendor-point/b459f331-933e-4270-9014-aeffda4f20a6',
     products: [],
   });
   const [loading, setLoading] = useState<boolean>(false);
